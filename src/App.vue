@@ -14,7 +14,7 @@
       <div class="col-sm-6">
         <HelloWorld msg="Welcome to Your Vue.js App"/>
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-4">
         <elementForm />
       </div>
     </div>
