@@ -1,24 +1,42 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">    
+      <img src="./assets/logo.png">   
+      <div>
+        <p>
+          If Element is successfully added to this project, you'll see an
+          <code v-text="'<el-button>'"></code>
+          below
+        </p>
+        <el-button>el-button</el-button>
+      </div>
+    
+    <div class="row">
+      <div class="col-sm-6">
+        <HelloWorld msg="Welcome to Your Vue.js App"/>
+      </div>
+      <div class="col-sm-6">
+        <elementForm />
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import elementForm from './components/elementForm'
 
 export default {
-  name: 'App',
+  name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+    elementForm
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
