@@ -8,12 +8,7 @@
           below
         </p>
         <el-button>el-button</el-button>
-      </div>
-      <p>
-    <router-link to="/foo">Go to Foo</router-link>
-    <router-link to="/bar">Go to Bar</router-link>
-    <router-view></router-view>
-      </p>
+      </div>      
     <div class="row">
       <div class="col-sm-6">
         <HelloWorld msg="Welcome to Your Vue.js App"/>
